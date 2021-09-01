@@ -53,6 +53,7 @@ const Nav = () => {
           <button
             className="text-4xl text-white md:hidden"
             onClick={handleDropdown}
+            aria-label="Toggle dropdown navigation"
           >
             {dropdownOpen ? <IoCloseOutline /> : <IoMenuOutline />}
           </button>
