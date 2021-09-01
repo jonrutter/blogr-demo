@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 // components
 import HeroSection from 'components/layout/HeroSection';
 import Footer from 'components/layout/Footer';
+import EditorSection from 'components/layout/EditorSection';
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
         <meta name="author" content="Jon Rutter" />
       </Helmet>
       <HeroSection />
+      <EditorSection />
       <Footer />
     </>
   );
