@@ -12,9 +12,9 @@ const EditorSection = () => {
           Designed for the future
         </h2>
         {/* grid */}
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
+        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 items-center">
           {/* Mobile bottom, desktop left */}
-          <div className="order-2 md:order-1 max-w-md mx-auto md:mx-0">
+          <div className="order-2 md:order-1 max-w-md mx-auto md:mx-0 xl:max-w-lg">
             <div className="mb-9 md:mb-16">
               <h3 className="text-dark-blue text-xl md:text-3xl mb-5">
                 Introducing an extensible editor
@@ -41,7 +41,7 @@ const EditorSection = () => {
             </div>
           </div>
           {/* mobile top, desktop right */}
-          <div className="order-1 md:order-2 max-w-xs mx-auto md:max-w-none relative md:-right-8 md:-top-8 xl:-right-1/3 xl:-top-1/4">
+          <div className="order-1 md:order-2 max-w-xs mx-auto md:max-w-none relative md:-right-8 xl:-right-1/3">
             <img
               src={Mobile}
               alt="Illustration of the editor"
