@@ -15,12 +15,12 @@ const Footer = () => {
         {links.map((link, index) => {
           const { title, links } = link;
           return (
-            <ul key={index} className="text-sm mb-7">
-              <li className="text-white mb-6">{title}</li>
+            <ul key={index} className="mb-7">
+              <li className="text-white mb-6 font-semibold">{title}</li>
               {links.map((link, index) => {
                 const { title, href } = link;
                 return (
-                  <li key={index} className="mb-2">
+                  <li key={index} className="mb-3">
                     <Link
                       to={href}
                       className="text-footer-text hover:underline"
