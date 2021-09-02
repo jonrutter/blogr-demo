@@ -8,7 +8,7 @@ const EditorSection = () => {
   return (
     <div className="pt-24 md:pt-36 px-6 text-body-text text-sm md:text-base text-center md:text-left overflow-hidden">
       <section className="container mx-auto">
-        <h2 className="text-2xl md:text-5xl text-dark-blue mb-9 text-center relative z-10">
+        <h2 className="text-2xl md:text-5xl text-dark-blue mb-9 text-center relative z-10 font-bold">
           Designed for the future
         </h2>
         {/* grid */}
@@ -16,7 +16,7 @@ const EditorSection = () => {
           {/* Mobile bottom, desktop left */}
           <div className="order-2 md:order-1 max-w-md mx-auto md:mx-0 xl:max-w-lg">
             <div className="mb-9 md:mb-16">
-              <h3 className="text-dark-blue text-xl md:text-3xl mb-5">
+              <h3 className="text-dark-blue text-xl md:text-3xl mb-5 font-semibold">
                 Introducing an extensible editor
               </h3>
               <p>
@@ -29,7 +29,7 @@ const EditorSection = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-dark-blue text-xl md:text-3xl mb-5">
+              <h3 className="text-dark-blue text-xl md:text-3xl mb-5 font-semibold">
                 Robust content management
               </h3>
               <p>

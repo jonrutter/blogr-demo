@@ -25,7 +25,7 @@ const DetailsSection = () => {
         {/* text content */}
         <div className="max-w-md xl:max-w-lg mx-auto md:mx-0 xl:justify-self-center">
           <div className="mb-9 md:mb-16">
-            <h2 className="text-dark-blue text-xl md:text-3xl mb-5">
+            <h2 className="text-dark-blue text-xl md:text-3xl mb-5 font-semibold">
               Free, open, simple
             </h2>
             <p>
@@ -38,7 +38,7 @@ const DetailsSection = () => {
             </p>
           </div>
           <div>
-            <h2 className="text-dark-blue text-xl md:text-3xl mb-5">
+            <h2 className="text-dark-blue text-xl md:text-3xl mb-5 font-semibold">
               Powerful tooling
             </h2>
             <p>
