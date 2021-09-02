@@ -9,6 +9,7 @@ module.exports = {
           hover: 'hsl(355, 100%, 74%)',
           DEFAULT: 'hsl(356, 100%, 66%)',
           dark: 'hsl(353, 100%, 62%)',
+          darkest: '#E6001B',
         },
         'dark-blue': {
           DEFAULT: 'hsl(208, 49%, 24%)',
