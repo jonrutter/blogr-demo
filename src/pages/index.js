@@ -6,6 +6,8 @@ import { Helmet } from 'react-helmet';
 import HeroSection from 'components/layout/HeroSection';
 import Footer from 'components/layout/Footer';
 import EditorSection from 'components/layout/EditorSection';
+import InfrastructureSection from 'components/layout/InfrastructureSection';
+import DetailsSection from 'components/layout/DetailsSection';
 
 const HomePage = () => {
   return (
@@ -14,12 +16,14 @@ const HomePage = () => {
         <title>Blogr | Home</title>
         <meta
           name="description"
-          content=" A demo landing page for a fictitional blogging platform."
+          content="A demo landing page for a fictitional blogging platform."
         />
         <meta name="author" content="Jon Rutter" />
       </Helmet>
       <HeroSection />
       <EditorSection />
+      <InfrastructureSection />
+      <DetailsSection />
       <Footer />
     </>
   );
