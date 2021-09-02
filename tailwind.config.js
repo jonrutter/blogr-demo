@@ -21,7 +21,7 @@ module.exports = {
         },
         'blue-gradient': {
           start: '#2C2D3F',
-          finish: '#3F4164',
+          end: '#3F4164',
         },
       },
       fontFamily: {
@@ -32,6 +32,16 @@ module.exports = {
       backgroundImage: {
         'hero-pattern':
           "url('images/bg-pattern-intro.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%))",
+        'circles-pattern': "url('images/bg-pattern-circles.svg')",
+      },
+      backgroundPosition: {
+        'center-half': 'center -10rem',
+        'left-10-top-20': '-10rem -20rem',
+      },
+      backgroundSize: {
+        'size-125': '125%',
+        'size-80': '80%',
+        'size-50': '50%',
       },
       borderRadius: {
         xl: '100px',
