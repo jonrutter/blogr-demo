@@ -10,7 +10,7 @@ import Logo from 'images/logo.svg';
 const Footer = () => {
   return (
     <div className="bg-footer-bg py-16 px-6 rounded-tr-xl md:py-20">
-      <footer className="container mx-auto text-center block grid grid-cols-1 justify-items-center md:grid-cols-4 md:justify-items-start md:text-left">
+      <footer className="container mx-auto text-center grid grid-cols-1 justify-items-center md:grid-cols-4 md:justify-items-start md:text-left">
         <img src={Logo} alt="Blogr" className="mb-16" />
         {links.map((link, index) => {
           const { title, links } = link;

@@ -21,9 +21,11 @@ const HomePage = () => {
         <meta name="author" content="Jon Rutter" />
       </Helmet>
       <HeroSection />
-      <EditorSection />
-      <InfrastructureSection />
-      <DetailsSection />
+      <main>
+        <EditorSection />
+        <InfrastructureSection />
+        <DetailsSection />
+      </main>
       <Footer />
     </>
   );

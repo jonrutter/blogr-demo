@@ -4,15 +4,17 @@ import React from 'react';
 import Nav from 'components/layout/Nav';
 import WhiteButton from 'components/buttons/WhiteButton';
 import TransparentButton from 'components/buttons/TransparentButton';
+import SkipToContent from '../buttons/SkipToContent';
 
 // background
 
 const HeroSection = () => {
   return (
     <div className="text-center bg-hero-pattern bg-no-repeat bg-center pt-12 px-6 pb-36 rounded-bl-xl md:pb-40 md:pt-16 md:px-8">
+      <SkipToContent />
       <header>
         <Nav />
-        <div className="w-full mx-auto md:container">
+        <div className="w-full mx-auto md:container" id="main">
           <h1 className="text-white text-3xl md:text-6xl mb-4 md:font-semibold">
             A modern publishing platform
           </h1>
