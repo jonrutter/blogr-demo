@@ -14,6 +14,8 @@ This is a demo landing page for a fictional blogging platform, Blogr.
     <li><a href="#description">Description</a></li>
     <li><a href="#live-demo">Live Demo</a></li>
     <li><a href="#built-with">Built With</a></li>
+    <li><a href="#author">Author</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ol>
 </details>
@@ -43,6 +45,18 @@ Preview the live demo: [https://jonrutter-blogr-landing-page.netlify.app/](https
 
 - [Gatsby](https://www.gatsbyjs.com/)
 - [TailwindCSS](https://tailwindcss.com/)
+
+## Author
+
+**Jon Rutter**
+- [GitHub Profile](https://www.github.com/jonrutter)
+- [Email](mailto:contact@jonrutter.com)
+- [Website](https://www.jonrutter.com)
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 ## Acknowledgements
 
