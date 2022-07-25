@@ -7,6 +7,16 @@ import { links } from 'data/links';
 // logo
 import Logo from 'images/logo.svg';
 
+const FooterLink = ({ to, children }) => (
+  <Link
+    to={to}
+    className="text-footer-text relative group overflow-hidden inline-block"
+  >
+    {children}
+    <div className="absolute bottom-0 h-px w-full transform -translate-x-full group-hover:translate-x-0 bg-current transition-all" />
+  </Link>
+);
+
 const Footer = () => {
   return (
     <div className="bg-footer-bg py-16 px-6 rounded-tr-xl md:py-20">
@@ -21,12 +31,7 @@ const Footer = () => {
                 const { title, href } = link;
                 return (
                   <li key={index} className="mb-3">
-                    <Link
-                      to={href}
-                      className="text-footer-text hover:underline"
-                    >
-                      {title}
-                    </Link>
+                    <FooterLink to={href}>{title}</FooterLink>
                   </li>
                 );
               })}
