@@ -58,7 +58,7 @@ const NavDropdown = ({ setDropdownOpen }) => {
 
   return (
     <div
-      className="bg-white text-dark-blue absolute top-16 inset-x-0 p-6 rounded-md shadow-xl z-10"
+      className="bg-white text-dark-blue absolute top-16 inset-x-0 p-6 rounded-md shadow-xl z-20 animate-up"
       ref={dropdownRef}
     >
       <ul className="flex flex-col border-b mb-6">
