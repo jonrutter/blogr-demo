@@ -22,13 +22,13 @@ const DropdownLink = ({ name, array }) => {
       <button
         className={`flex items-center text-white font-ubuntu font-bold opacity-70 ${
           open && 'opacity-100 underline'
-        }`}
+        } hover:opacity-100 focus:opacity-100 transition-all`}
         onClick={() => setOpen(!open)}
       >
         {name} {open ? <BiChevronUp /> : <BiChevronDown />}
       </button>
       {open && (
-        <div className="absolute top-12 bg-white px-6 py-8 rounded w-40 shadow-xl">
+        <div className="absolute top-12 bg-white px-6 py-8 rounded w-40 shadow-xl animate-up">
           <ul className="flex flex-col space-y-6 font-ubuntu">
             {array.map((link, index) => {
               const { title, href } = link;

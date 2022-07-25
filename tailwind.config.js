@@ -52,6 +52,7 @@ module.exports = {
   variants: {
     extend: {
       fontWeight: ['hover'],
+      translate: ['group-hover', 'group-focus'],
     },
   },
   plugins: [],

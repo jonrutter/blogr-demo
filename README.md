@@ -2,17 +2,17 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/5ee3987c-3f85-4a13-84e9-0c1739f93616/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-blogr-landing-page.netlify.app/)
-[![Current Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/rutterjt/blogr-landing-page)
 [![GitHub Stars](https://img.shields.io/github/stars/rutterjt/blogr-landing-page.svg)](https://github.com/rutterjt/blogr-landing-page/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/rutterjt/blogr-landing-page.svg)](https://github.com/rutterjt/blogr-landing-page/issues)
 
 This is a demo landing page for a fictional blogging platform, Blogr.
 
+Preview a live demo: [https://jonrutter-blogr-landing-page.netlify.app/](https://jonrutter-blogr-landing-page.netlify.app/)
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#description">Description</a></li>
-    <li><a href="#live-demo">Live Demo</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#author">Author</a></li>
     <li><a href="#license">License</a></li>
@@ -37,18 +37,17 @@ The site features a fully mobile responsive design, and interactive UI component
 
 <br />
 
-## Live Demo
-
-Preview the live demo: [https://jonrutter-blogr-landing-page.netlify.app/](https://jonrutter-blogr-landing-page.netlify.app/)
-
 ## Built with
 
+This project was built with:
+
 - [Gatsby](https://www.gatsbyjs.com/)
-- [TailwindCSS](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Author
 
 **Jon Rutter**
+
 - [GitHub Profile](https://www.github.com/rutterjt)
 - [Email](mailto:contact@jonrutter.io)
 - [Website](https://www.jonrutter.io)
@@ -56,7 +55,6 @@ Preview the live demo: [https://jonrutter-blogr-landing-page.netlify.app/](https
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 
 ## Acknowledgements
 
