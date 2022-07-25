@@ -44,7 +44,10 @@ const Nav = () => {
           </div>
           {/* left side */}
           <div className="hidden items-center space-x-4 md:flex">
-            <Link to="/" className="text-white opacity-70">
+            <Link
+              to="/"
+              className="text-white opacity-70 hover:opacity-100 focus:opacity-100 transition-all"
+            >
               Login
             </Link>
             <WhiteButton>Sign Up</WhiteButton>
