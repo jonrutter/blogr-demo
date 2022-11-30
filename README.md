@@ -2,8 +2,8 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/5ee3987c-3f85-4a13-84e9-0c1739f93616/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-blogr-landing-page.netlify.app/)
-[![GitHub Stars](https://img.shields.io/github/stars/rutterjt/blogr-landing-page.svg)](https://github.com/rutterjt/blogr-landing-page/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/rutterjt/blogr-landing-page.svg)](https://github.com/rutterjt/blogr-landing-page/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/blogr-demo.svg)](https://github.com/jonrutter/blogr-demo/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/blogr-demo.svg)](https://github.com/jonrutter/blogr-demo/issues)
 
 This is a demo landing page for a fictional blogging platform, Blogr.
 
@@ -22,7 +22,7 @@ Preview a live demo: [https://jonrutter-blogr-landing-page.netlify.app/](https:/
 
 ## Description
 
-I built this project as part of FrontEnd Mentor's front-end challenges. The site is a demo landing page for a fictitious blogging platform company, Blogr.
+The site is a demo landing page for Blogr, a fictitious blogging platform company. I built this project as part of FrontEnd Mentor's front-end challenges.
 
 ![Preview of the Blogr Landing Page project](./github/preview-main.png)
 
@@ -48,7 +48,7 @@ This project was built with:
 
 **Jon Rutter**
 
-- [GitHub Profile](https://www.github.com/rutterjt)
+- [GitHub Profile](https://www.github.com/jonrutter)
 - [Email](mailto:contact@jonrutter.io)
 - [Website](https://www.jonrutter.io)
 
